@@ -90,7 +90,7 @@ Seven production and management VLANs were implemented across the switching infr
 
 The BDF provides connectivity between the Core and the three access-layer IDFs.
 
-![802.1Q Trunking](802.1Q%20TRUNKING%20BDF-SW.png)
+![802.1Q Trunking](802.1Q%20Trunking.png)
 
 ---
 
@@ -111,11 +111,11 @@ A failover test was also performed by administratively shutting down the primary
 
 ### STP Root Bridge
 
-![STP Root](CORE-SW%20STP%20ROOT.png)
+![STP Root](Prove%20CORE-SW%20is%20STP%20Root.png)
 
 ### Redundant Uplinks
 
-![STP Redundancy](STP%20REDUNDANCY%20BDF-SW.png)
+![STP Redundancy](STP%20REDUNDANCY%20BDF.png)
 
 ---
 
@@ -140,7 +140,7 @@ Default Gateway: 10.10.10.1
 
 ### DHCP Binding
 
-![DHCP Binding](DHCP%20BINDING%20CORE-SW.png)
+![DHCP Binding](DHCP.png)
 
 ### DHCP Client Verification
 
@@ -160,7 +160,7 @@ intranet.enterprise.local → 10.10.20.10
 
 CORP-PC1 successfully resolved the hostname and communicated with the server.
 
-![DNS Test](DNS%20PROOF.png)
+![DNS Test](DNS%20PROOF%20ping%20intranet.enterprise.local%20.png)
 
 ---
 
@@ -175,7 +175,7 @@ From CORP-PC1 in VLAN 10, successful ICMP tests were performed to systems in:
 - VLAN 40 — Operations
 - VLAN 60 — Security
 
-![Inter-VLAN Connectivity](INTER-VLAN%20CONNECTIVITY.png)
+![Inter-VLAN Connectivity](Inter-VLAN%20Connectivity.png)
 
 ---
 
@@ -201,7 +201,7 @@ Testing confirmed:
 - Guest → Security: **Blocked**
 - Guest → Management: **Blocked**
 
-![Guest Isolation](GUEST%20VLAN%20ISOLATION.png)
+![Guest Isolation](Guest%20VLAN%20Isolation.png)
 
 ---
 
@@ -218,7 +218,7 @@ SSH was configured on the BDF and IDF switches using:
 
 Remote management was successfully tested from NETADMIN-PC.
 
-![SSH Management](SSH%20MANAGEMENT.png)
+![SSH Management](SSH%20Management.png)
 
 ---
 
